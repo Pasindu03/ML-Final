@@ -1,0 +1,13 @@
+pandas==2.3.2
+scikit-learn==1.7.1
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+wordcloud>=1.8
+spacy>=3.7
+joblib>=1.3
+google-cloud-aiplatform>=2.30
+
+# spacy doesn’t automatically download language models. If you need English, you’ll also want:
+
+python -m spacy download en_core_web_sm
